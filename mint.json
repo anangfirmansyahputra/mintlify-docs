@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "Coldsire Docs",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
@@ -51,22 +51,34 @@
   "navigation": [
     {
       "group": "Get Started",
-      "pages": ["introduction", "quickstart", "development"]
+      "pages": [
+        "docs/introduction",
+        "docs/quickstart",
+        "docs/development"
+      ]
     },
     {
       "group": "Essentials",
-      "pages": ["essentials/markdown", "essentials/code", "essentials/images", "essentials/settings", "essentials/navigation"]
+      "pages": [
+        "docs/essentials/markdown",
+        "docs/essentials/code",
+        "docs/essentials/images",
+        "docs/essentials/settings",
+        "docs/essentials/navigation"
+      ]
     },
     {
       "group": "API Documentation",
-      "pages": ["api-reference/introduction"]
+      "pages": [
+        "docs/api-reference/introduction"
+      ]
     },
     {
       "group": "Endpoint Examples",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "docs/api-reference/endpoint/get",
+        "docs/api-reference/endpoint/create",
+        "docs/api-reference/endpoint/delete"
       ]
     }
   ],
